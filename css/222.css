@@ -33,14 +33,14 @@ nav{margin-top: 0;background-color:#FFFFFF;}
 .head-menu2{overflow-x:scroll; }
 ::-webkit-scrollbar{width:0;height:0;}
 .head-menu2>.hd-dropdown{margin: 0 30px 0 0;padding:0;display: inline-block;}
-.head-menu2>.hd-dropdown>a ,.head-menu .region>a{display: inline-block;height:39px;line-height: 39px;border-bottom:3px solid #F5F5F5;}
+.head-menu2>.hd-dropdown>a ,.head-menu .region>a{display: inline-block;height:39px;line-height: 39px;}
+.head-menu2>.hd-dropdown>a{border-bottom:3px solid #F5F5F5;}
 .head-menu2>.hd-dropdown>a{text-align: center;}
-.head-menu .region .show-menu{display:block;position: absolute;top:39px ;background-color: #FFFFFF;min-width:68px; }
 .show-menu {overflow-y: scroll;}
 .show-menu li{position: relative;font-size:12px;overflow: auto;text-align: center;}
 .show-menu li img{padding-top:15px;padding-bottom:6px;height:19px;width:28px; }
 .show-menu li p{padding-bottom:7px;height:11px; }
-.head-menu2>.hd-dropdown>a:hover,.head-menu2>.hd-dropdown>a.home{border-bottom-color:#E2694F;}
+.head-menu2>.hd-dropdown>.active{border-bottom-color:#E2694F;}
 
 /*=================================
 介绍

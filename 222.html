@@ -7,7 +7,6 @@
           content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="css/222.css">
 </head>
 <body>
@@ -23,8 +22,8 @@
                 <a href="#"  class="hd-item">美国<i class="arrow"></i></a>
             </div>
             <div class="head-menu2">
-                <div class="home hd-dropdown">
-                    <a href="#"   class="home hd-item">所有</a>
+                <div class="hd-dropdown">
+                    <a href="#"   class="active hd-item">所有</a>
                 </div>
                 <div class="hd-dropdown">
                     <a href="#"   class="hd-item">技术移民</a>
@@ -59,6 +58,20 @@
 </div>
 
 <script  type="text/javascript" src="js/jquery.js" ></script>
+<script>
+    /*menu 下划线*/
+    $(function(){
+        var menu = $('.head-menu2');
+        var items = menu.find('a');
+        var lastCurrent = menu.find('.active');
+        items.click(function() {
+            var item = $(this);
+            lastCurrent.removeClass("active");
+            item.addClass('active');
+            lastCurrent = item;
+        })
+    });
+</script>
 
 
 
