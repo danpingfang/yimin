@@ -47,22 +47,36 @@
   <form class="form-text">
     <p class="fieldset">联系人姓名<input class="username" type="text" name="name" placeholder="2-15个字"><br></p>
     <p class="fieldset">您的性别
-      <span class="radio_box"><input id="male-select" type="radio" checked="checked" name="Sex" value="male" /><label for="male-select"></label>男</span>
-      <span class="radio_box"><input  id="female-select" type="radio" checked="checked" name="Sex" value="female" /><label for="female-select"></label>女<br></span>
+      <span class="radio_box"><input id="male-select" type="radio" checked="checked" name="Sex" value="0" /><label for="male-select"></label>男</span>
+      <span class="radio_box"><input  id="female-select" type="radio" checked="checked" name="Sex" value="1" /><label for="female-select"></label>女<br></span>
     </p>
     <p class="fieldset">手机号码<input class="ph-number" type="text" name="number" placeholder="11位手机号码"></p>
   </form>
 </div>
 <div class="footer">
-  <botton class="btn-form">确认提交</botton>
+  <bUtton class="btn-form">确认提交</bUtton>
 </div>
 
 
-
-
-
-
 <script type="text/javascript" src="static/js/jquery.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".btn-form").click(function(){
+      var name=$('.username').val();
+      var gender=$("input[type='radio']:checked").val();
+      var phone=$('.ph-number').val();
+      $.post(" ",
+        {
+          name:name ,
+          gender:gender,
+          phone:phone,
+        },
+        function(data,status){
+          alert("数据：" + data + "\n状态：" + status);
+        });
+    });
+  });
+</script>
 
 
 </body>
