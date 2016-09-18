@@ -45,12 +45,12 @@
     <p><i class="iconfont"></i>联系人</p>
   </div>
   <form class="form-text">
-    <p class="fieldset">联系人姓名<input class="username" type="text" name="name" placeholder="2-15个字"><br></p>
+    <p class="fieldset">联系人姓名<input id="username" type="text" name="name" placeholder="2-15个字" class="required"><br></p>
     <p class="fieldset">您的性别
       <span class="radio_box"><input id="male-select" type="radio" checked="checked" name="Sex" value="0" /><label for="male-select"></label>男</span>
       <span class="radio_box"><input  id="female-select" type="radio" checked="checked" name="Sex" value="1" /><label for="female-select"></label>女<br></span>
     </p>
-    <p class="fieldset">手机号码<input class="ph-number" type="text" name="number" placeholder="11位手机号码"></p>
+    <p class="fieldset">手机号码<input id="ph-number" type="text" name="number" placeholder="11位手机号码" class="required"></p>
   </form>
 </div>
 <div class="footer">
@@ -59,6 +59,7 @@
 
 
 <script type="text/javascript" src="static/js/jquery.js"></script>
+
 <script>
   $(document).ready(function(){
     $(".btn-form").click(function(){
@@ -71,8 +72,23 @@
           gender:gender,
           phone:phone,
         },
-        function(data,status){
-          alert("数据：" + data + "\n状态：" + status);
+        function(){
+          if (name==""||name.length<4||name.length>30)
+          {alert("请输入2至15个字");
+            $("#username").focus();
+            return false;
+          }
+          else if(gender!=0&&gender!=1)
+          {alert("请选择性别");
+            return false;
+          }
+          else if(phone==""||phone.length!=11)
+          {alert("请输入11位手机号码");
+            $("#ph-number").focus();
+            return false;
+          }
+          else
+          {alert("提交成功")};
         });
     });
   });

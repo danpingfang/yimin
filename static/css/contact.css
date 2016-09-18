@@ -37,14 +37,15 @@ head
 .form-box{background-color: #FFFFFF;padding-top:16px;margin-top: 0;font-size: 13px;bottom:0;}
 .form-box>.form-hd{margin-left: 16px;margin-bottom: 16px;}
 .form-text>p{line-height: 42px;border-bottom:1px solid #F5F5F5;padding-left:16px;}
-.fieldset .username{margin-left: 50px;width:150px;height:16px;border:0;}
+.fieldset #username{margin-left: 50px;width:150px;height:16px;border:0;}
 .fieldset #male-select{margin-left: 90px;-webkit-appearance: none;}
 .fieldset #female-select{margin-left: 90px;-webkit-appearance: none;}
-.fieldset .ph-number{margin-left: 60px;width:150px;height:16px;border: 0;}
+.fieldset #ph-number{margin-left: 60px;width:150px;height:16px;border: 0;}
 .radio_box{ display:inline-block; position:relative;}
 .radio_box label{ width:16px; height:16px; position:absolute; top:13px; left:60px; border:1px solid #525252; border-radius:50%; background:#fff; }
 .radio_box input:checked + label:after{ content:''; width:16px; height:16px; position:absolute; top:0px; left:0px; background:#E2694F; border-radius:50%;}
 
 /*提交按钮*/
-.footer{height:49px;font-size: 16px;color: #FFFFFF;background-color: #57646E;bottom: 0;left:0; right:0;position: fixed;}
+.footer{height:49px;background-color: #57646E;bottom: 0;left:0; right:0;position: fixed;}
 .footer>.btn-form{line-height: 49px;left: 50%;transform:translate(-50%);position: absolute;}
+.footer>bUtton{background-color: #57646E;border: 0;color: #FFFFFF;font-size: 16px;}

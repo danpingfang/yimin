@@ -74,8 +74,8 @@ nav{height:50px;margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px so
 /*备注*/
 .notice{background-color: #FFFFFF;margin-top: 0; padding:0px 6px 16px 15px;color:#A0A0A0;font-size: 11px;}
 
-.footer{height:49px;font-size: 16px;color: #FFFFFF;background-color: #57646E;bottom: 0;left:0; right:0;margin-top: 16px;}
+.footer{height:49px;background-color: #57646E;bottom: 0;left:0; right:0;margin-top: 16px;position: relative;}
 .footer>.btn-asking{line-height:49px;left: 50%;transform:translate(-50%);position: absolute;}
-
+.footer>button{height:49px;font-size: 16px;color: #FFFFFF;background-color:#57646E;border: 0; }
 
 
