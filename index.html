@@ -22,7 +22,7 @@
                 <a href="#"  class="hd-item first-hd-item">地区<i class="arrow"></i></a>
                 <div class="show-menu">
                     <ul>
-                        <li><a href="En"><img src="" alt="flag" width="28px" height="18px"/><p>英国</p></a></li>
+                        <li><a href="#"><img src="" alt="flag"/><p>英国</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>加拿大</p></a></li>
                         <li ><a href="#"><img src="" alt="flag"/><p>圣基茨</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>澳大利亚</p></a></li>
@@ -130,6 +130,13 @@
     var target = $(e.target).closest('li');
     handleLocation();
   });
+
+  /*添加滚动条的高度*/
+  $(function(){
+    var h=$(window).height()-83+"px"
+   $('.show-menu').css('height',h)
+  })
+
 </script>
 </body>
 </html>
