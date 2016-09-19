@@ -63,19 +63,19 @@ nav{height:50px;margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px so
 /*费用明细*/
 .floor-table{background-color: #FFFFFF;margin-top:16px; padding:16px 0 10px 0;color:#3A3A3A;}
 .floor-table .hd{height: 21px;margin-bottom: 16px;padding-left: 12px;}
-.cost-table{padding:0;}
-.cost-table table{border-bottom:1px solid #F5F5F5;}
-.cost-table table th,.cost-table table td{border-top:1px solid #F5F5F5;border-left:1px solid #F5F5F5;font-weight: normal;}
-.cost-table table th{padding:17px 8px 16px 8px;font-size:12px;white-space: normal;}
-.cost-table table td{padding:9px 8px 9px 8px;font-size:11px;}
-.cost-table table td:first-child{font-size: 12px;}
-.cost-table table th:first-child,.cost-table table td:first-child{border-left:0;}
+.table-box{padding:0;}
+.table-box table{border-bottom:1px solid #F5F5F5;}
+.table-box table th,.table-box table td{border-top:1px solid #F5F5F5;border-left:1px solid #F5F5F5;font-weight: normal;}
+.table-box table th{padding:17px 8px 16px 8px;font-size:12px;white-space: normal;}
+.table-box table td{padding:9px 8px 9px 8px;font-size:11px;}
+.table-box table td:first-child{font-size: 12px;}
+.table-box table th:first-child,.table-box table td:first-child{border-left:0;}
 
 /*备注*/
 .notice{background-color: #FFFFFF;margin-top: 0; padding:0px 6px 16px 15px;color:#A0A0A0;font-size: 11px;}
 
-.footer{height:49px;font-size: 16px;color: #FFFFFF;background-color: #57646E;bottom: 0;left:0; right:0;margin-top: 16px;}
+.footer{height:49px;background-color: #57646E;bottom: 0;left:0; right:0;margin-top: 16px;position: relative;}
 .footer>.btn-asking{line-height:49px;left: 50%;transform:translate(-50%);position: absolute;}
-
+.footer>button{height:49px;font-size: 16px;color: #FFFFFF;background-color:#57646E;border: 0; }
 
 

@@ -22,9 +22,9 @@
                 <a href="#"  class="hd-item first-hd-item">地区<i class="arrow"></i></a>
                 <div class="show-menu">
                     <ul>
-                        <li><a href="#"><img src="" alt="flag"/><p>英国</p></a></li>
+                        <li><a href="En"><img src="" alt="flag" width="28px" height="18px"/><p>英国</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>加拿大</p></a></li>
-                        <li><a href="#"><img src="" alt="flag"/><p>圣基茨</p></a></li>
+                        <li ><a href="#"><img src="" alt="flag"/><p>圣基茨</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>澳大利亚</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>意大利</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>英国</p></a></li>
@@ -64,8 +64,8 @@
             <br>
             <ul>
                 <li class="current">办理周期：10-36个月</li>
-                <li>投资额度：12万澳币</li>
-                <li>签证类型：永久居住</li>
+                <li>签证类型：12万澳币</li>
+                <li>居住要求：永久居住</li>
             </ul>
         </div>
         <div class="info1">
@@ -105,7 +105,30 @@
       lastCurrent.removeClass("active");
       item.addClass('active');
       lastCurrent = item;
-    })
+      handleLocation();
+    });
+  });
+
+  /*点击国家、项目刷新页面*/
+  function handleLocation() {
+    var url='/item-';
+    var ct= $('.show-menu').find('.active').attr('href');
+    var params = [];
+    if(ct!=""){
+      params.push('ct' + ct);
+    }
+    var pt=$('.head-menu2').find('.active').attr('href');
+    if(pt!="") {
+      params.push('pt' + pt);
+    }
+    url += params.join('_');
+    location.href = url;
+  }
+
+  $('.show-menu').bind('click', function(e) {
+    e.preventDefault();
+    var target = $(e.target).closest('li');
+    handleLocation();
   });
 </script>
 </body>
