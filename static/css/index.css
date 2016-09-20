@@ -15,6 +15,8 @@ img{vertical-align: middle;}
 /*=================================
 head
 ===================================*/
+header{position:fixed;width:100%;top:0;z-index:100;}
+body{padding-top: 83px}
 .head{height:44px;background-color:#3C4149;margin-top: 0;position:relative;}
 .head-name{height:44px;line-height: 42px;}
 .head .head-name>h2{color:#FFFFFF; text-align: center;}
@@ -35,14 +37,15 @@ nav{margin-top: 0;background-color:#FFFFFF;}
 }
 
 .head-menu2{overflow-x:scroll; }
-::-webkit-scrollbar{width:0;height:0;}
+.head-menu2::-webkit-scrollbar{width:0;height:0;}
 .head-menu2>.hd-dropdown{margin: 0 30px 0 0;padding:0;display: inline-block;}
 .head-menu2>.hd-dropdown>a ,.head-menu .region>a{display: inline-block;height:39px;line-height: 39px;}
 .head-menu2>.hd-dropdown>a{border-bottom:3px solid #F5F5F5;}
 .head-menu2>.hd-dropdown>a{text-align: center;}
-.head-menu .region .show-menu{display:block;position: absolute;top:39px ;background-color: #FFFFFF;min-width:68px; }
-.show-menu {overflow-y: scroll;}
-.show-menu li{position: relative;font-size:12px;overflow: auto;text-align: center;}
+.head-menu .region .show-menu{display:block;position: absolute;top:39px ;background-color: #FFFFFF;width:68px; }
+.show-menu{overflow-y: scroll;scrollbar-face-color:red;}
+.show-menu::-webkit-scrollbar{width:2px;height:323px;}
+.show-menu li{position: relative;font-size:12px;text-align: center;}
 .show-menu li img{padding-top:15px;padding-bottom:6px;height:19px;width:28px; }
 .show-menu li p{padding-bottom:7px;height:11px; }
 .show-menu ul .active{background-color: #EAEEF1;}

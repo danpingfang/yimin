@@ -8,6 +8,7 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <link rel="stylesheet" href="static/css/contact.css">
+  <link rel="stylesheet" href="http://static-test.lvbaoyou.com/static/yimin/css/font.css">
 </head>
 <body>
 <header>
@@ -31,7 +32,7 @@
 <!--  项目预约  -->
 <div class="project">
     <div class="project-hd">
-      <p><i class="iconfont"></i>预约项目：189澳大利亚独立技术移民</p>
+      <p><i class="icon icon-heart"></i>预约项目：189澳大利亚独立技术移民</p>
     </div>
     <div class="project-notice">
       <p> 签证类型：永久居民<br>漂洋过海服务费：￥16000<br>办理周期：6-12个月</p>
@@ -42,7 +43,7 @@
 <!--  联系人  -->
 <div class="form-box">
   <div class="form-hd">
-    <p><i class="iconfont"></i>联系人</p>
+    <p><i class="icon icon-heart"></i>联系人</p>
   </div>
   <form class="form-text">
     <p class="fieldset">联系人姓名<input id="username" type="text" name="name" placeholder="2-15个字" class="required"><br></p>
@@ -74,10 +75,6 @@
           if (name==""||name.length<4||name.length>30)
           {alert("请输入2至15个字");
             $("#username").focus();
-            return false;
-          }
-          else if(gender!=0&&gender!=1)
-          {alert("请选择性别");
             return false;
           }
           else if(phone==""||phone.length!=11)
