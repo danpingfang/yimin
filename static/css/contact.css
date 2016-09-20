@@ -3,14 +3,14 @@
 global
 ===================================*/
 html,body,div,span,h1,h2,h3,a,p,li,ul,form,label,nav,pre,i,sub,em{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body {font:normal 14px "microsoft yahei","Helvetica Neue",Helvetica,sans-serif;color:#3A3A3A;background-color:#FFFFFF;-webkit-text-size-adjust:100%; -webkit-tap-highlight-color:rgba(0, 0, 0, 0); -webkit-font-smoothing:antialiased; -moz-user-select:none; }
+body {font:normal 14px 'PingFangSC-Regular', 'Microsoft YaHei', Helvetica, Arial, sans-serif;color:#3A3A3A;background-color:#FFFFFF;-webkit-text-size-adjust:100%; -webkit-tap-highlight-color:rgba(0, 0, 0, 0); -webkit-font-smoothing:antialiased; -moz-user-select:none; }
 a{color:#5A5A5A; text-decoration:none;outline: none;}
 ul{list-style:none}
 h1, h2 {font-size:100%; font-weight:500 }
 h1{font-size:18px;}
 h2{font-size:16px;}
 img{vertical-align: middle;}
-.icon{margin-right: 10px;}
+
 
 /*=================================
 head
@@ -30,7 +30,7 @@ head
 .project-hd{font-size:15px;margin-bottom: 20px;}
 .project-notice{font-size:11px;}
 .project-notice>p{line-height: 20px;}
-
+.icon{margin-right: 10px;}
 .text-box{height: 16px;background-color:#F5F5F5;margin-top: 0;}
 
 /*联系人*/
@@ -41,9 +41,6 @@ head
 .fieldset #male-select{margin-left: 90px;-webkit-appearance: none;}
 .fieldset #female-select{margin-left: 90px;-webkit-appearance: none;}
 .fieldset #ph-number{margin-left: 60px;width:150px;height:16px;border: 0;}
-.radio_box{ display:inline-block; position:relative;}
-.radio_box label{ width:16px; height:16px; position:absolute; top:13px; left:60px; border:1px solid #525252; border-radius:50%; background:#fff; }
-.radio_box input:checked + label:after{ content:''; width:16px; height:16px; position:absolute; top:0px; left:0px; background:#E2694F; border-radius:50%;}
 
 /*提交按钮*/
 .footer{height:49px;background-color: #57646E;bottom: 0;left:0; right:0;position: fixed;}
