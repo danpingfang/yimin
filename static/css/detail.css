@@ -10,6 +10,7 @@ h1, h2 {font-size:100%; font-weight:500 }
 h1{font-size:18px;}
 h2{font-size:15px;}
 img{vertical-align: middle;}
+.icon{margin-right: 10px;}
 
 
 /*=================================
@@ -48,6 +49,7 @@ nav{height:50px;margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px so
 .content2{background-color: #FFFFFF;margin-top: 16px;padding:2px 0 16px 12px;color:#3A3A3A;margin-bottom: 16px;}
 .content2>.term{border-bottom:1px solid #F5F5F5;}
 .content2>.term>p{padding-bottom: 12px;padding-top: 12px;}
+.content2>.term>p>.icon2{margin-left: 12px;}
 .content2 .price-box{padding-top:12px;font-size: 17px;}
 .content2 .price-box em{font-style: normal;color: #f48b25;}
 
