@@ -3,7 +3,8 @@
 global
 ===================================*/
 html,body,div,span,h1,h2,h3,a,p,li,ul{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body {font:normal 11px "microsoft yahei","Helvetica Neue",Helvetica,sans-serif;color:#3A3A3A;background-color: #F5F5F5;-webkit-text-size-adjust:none; -webkit-tap-highlight-color:rgba(0, 0, 0, 0); -webkit-font-smoothing:antialiased; -moz-user-select:none; }
+body{font:normal 11px 'PingFangSC-Regular', 'Microsoft YaHei', Helvetica, Arial, sans-serif;color:#3A3A3A;background-color: #F5F5F5;-webkit-text-size-adjust:none; -webkit-tap-highlight-color:rgba(0, 0, 0, 0); -webkit-font-smoothing:antialiased; -moz-user-select:none; }
+pre{font-family:'PingFangSC-Regular', 'Microsoft YaHei', Helvetica, Arial, sans-serif; }
 a{color:#5A5A5A; text-decoration:none;outline: none;}
 ul{list-style:none}
 h1, h2 {font-size:100%; font-weight:500 }
