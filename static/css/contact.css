@@ -10,7 +10,7 @@ h1, h2 {font-size:100%; font-weight:500 }
 h1{font-size:18px;}
 h2{font-size:16px;}
 img{vertical-align: middle;}
-.icon{margin-right: 10px;}
+
 
 /*=================================
 head
@@ -30,7 +30,7 @@ head
 .project-hd{font-size:15px;margin-bottom: 20px;}
 .project-notice{font-size:11px;}
 .project-notice>p{line-height: 20px;}
-
+.icon{margin-right: 10px;}
 .text-box{height: 16px;background-color:#F5F5F5;margin-top: 0;}
 
 /*联系人*/
