@@ -23,16 +23,17 @@ header{position:fixed;width:100%;top:0;z-index:100;}
 .head .lab {margin-top: 8px;text-align: center;}
 .head p{color:#A0A0A0;font-size: 13px;border:1px solid #A0A0A0;height:26px;width:78px;line-height: 26px;border-radius: 36px;}
 .head .p1,.head .p2{display: inline-block ;}
-nav{height:50px;margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px solid #C3C3C3;background-color: #FFFFFF;font-weight:500; }
-.navigation>.menu{display:flex;}
-.menu-nav>a{padding-bottom:14px;padding-top:14px;border-bottom: 1px solid #fff;}
+nav{margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px solid #C3C3C3;background-color: #FFFFFF;font-weight:500; }
+.navigation>.menu{display:flex;display:-webkit-flex;}
+.menu-nav>a{border-bottom: 1px solid #fff;height: 50px;display: inline-block;line-height: 50px;}
 .menu-nav .active{border-bottom-color: #E2694F;}
-.navigation>.menu>.menu-nav{flex:1;line-height: 50px;text-align: center;}
+.navigation>.menu>.menu-nav{flex:1;-webkit-flex: 1;line-height: 50px;text-align: center;}
 
 .whole-page{padding-top: 147px;padding-bottom: 49px;}
 /*项目介绍*/
 .floor-row{background-color: #FFFFFF;margin-bottom: 16px;margin-top: 0; padding:16px 12px 0 12px;color:#3A3A3A;}
 .floor-row .hd{height: 21px;margin-bottom: 8px;border-bottom: 2px solid #F5F5F5;padding-bottom: 8px;}
+.floor-row pre {white-space: pre-wrap;}
 .hd .title{padding-left:11px; }
 .hd .title:before {
     content: "";
@@ -87,7 +88,6 @@ nav{height:50px;margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px so
 
 .btn-asking{
   bottom: 0;left:0; right:0;
-  margin-top: 16px;
   position: fixed;
   text-align: center;
   line-height:49px;
