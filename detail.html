@@ -232,7 +232,18 @@
         });
     });
     /*展开*/
-
+    $(function(){
+      var content = $('.content1');
+      $('.btn-toggle').click(function (e) {
+        e.preventDefault();
+        var height= content.height();
+        if(height==72){
+          content.css('height','auto');
+        }
+        else{
+          content.css('height','72');}
+      });
+    });
 </script>
 </body>
 </html>

@@ -44,7 +44,7 @@ nav{margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px solid #C3C3C3;
     overflow: hidden;margin-top: 2px;
     background-color:#E2694F;
 }
-.floor-row .content1{margin-bottom:0;line-height:24px;height:auto;overflow: hidden;position:relative;}
+.floor-row .content1{margin-bottom:0;line-height:24px;height:48px;overflow: hidden;position:relative;}
 .btn-open{color:#B7C0C8;position:relative;padding-bottom: 16px;height: 24px;}
 .btn-toggle{float:right;height: 24px;background-color: #FFFFFF;font-size: 14px;}
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/yimin-project-mobile.iml" filepath="$PROJECT_DIR$/yimin-project-mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yimin.iml" filepath="$PROJECT_DIR$/.idea/yimin.iml" />
     </modules>
   </component>
 </project>

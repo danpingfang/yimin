@@ -24,9 +24,16 @@ body{padding-top: 83px;  -webkit-overflow-scrolling: touch;}
 /*nav*/
 nav{margin-top: 0;background-color:#FFFFFF;}
 .head-menu{height:39px;font-size: 13px; white-space: nowrap}
-.head-menu .region{min-width:68px ;background-color:#EAEEF1;position: relative;margin-left: 0;margin-right:12px;float:left;text-align: center;}
+.head-menu .region{
+    width:68px ;
+    background-color:#EAEEF1;
+    position: relative;
+    margin-left: 0;
+    margin-right:12px;
+    float:left;
+    text-align: center;}
 .region .hd-item{margin-left: 0;}
-.region .arrow{position: absolute;top:40%;;margin-left: 6px;width:0;height:0;line-height:0;font-size:0;*display:inline;*zoom:1;vertical-align:middle;
+.region .arrow{position: absolute;top:40%;;margin-left: 5px;width:0;height:0;line-height:0;font-size:0;*display:block;*zoom:1;vertical-align:middle;
     border-top:0 none;
     border-bottom:6px solid #B7C0C8;
     border-left:4px solid transparent;

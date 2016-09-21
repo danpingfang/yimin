@@ -43,6 +43,6 @@ head
 .fieldset #ph-number{margin-left: 60px;width:150px;height:16px;border: 0;}
 
 /*提交按钮*/
-.footer{height:49px;background-color: #57646E;bottom: 0;left:0; right:0;position: fixed;}
-.footer>.btn-form{line-height: 49px;left: 50%;transform:translate(-50%);position: absolute;}
+.footer{height:49px;background-color: #57646E;bottom: 0;left:0; right:0;position: fixed;text-align: center;}
+.footer>.btn-form{line-height: 49px;}
 .footer>bUtton{background-color: #57646E;border: 0;color: #FFFFFF;font-size: 16px;}
