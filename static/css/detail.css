@@ -43,7 +43,7 @@ nav{height:50px;margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px so
     overflow: hidden;margin-top: 2px;
     background-color:#E2694F;
 }
-.floor-row .content1{margin-bottom:0;line-height:24px;height:48px;overflow: hidden;position:relative;}
+.floor-row .content1{margin-bottom:0;line-height:24px;height:auto;overflow: hidden;position:relative;}
 .btn-open{color:#B7C0C8;position:relative;padding-bottom: 16px;height: 24px;}
 .btn-toggle{float:right;height: 24px;background-color: #FFFFFF;font-size: 14px;}
 
@@ -85,14 +85,16 @@ nav{height:50px;margin-top: 0;font-size:15px;color:#3C4149;border-bottom: 1px so
 .notice{background-color: #FFFFFF;margin-top: 0; padding:0px 6px 16px 15px;color:#A0A0A0;font-size: 11px;}
 .bottom-space{height:16px;background-color:#F5F5F5;}
 
-.footer{
-    height:49px;
-    background-color: #57646E;
-    bottom: 0;left:0; right:0;
-    margin-top: 16px;
-    position: fixed;
+.btn-asking{
+  bottom: 0;left:0; right:0;
+  margin-top: 16px;
+  position: fixed;
+  text-align: center;
+  line-height:49px;
+  height:49px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color:#57646E;
 }
-.footer>.btn-asking{line-height:49px;left: 50%;transform:translate(-50%);position: absolute;}
-.footer>button{height:49px;font-size: 16px;color: #FFFFFF;background-color:#57646E;border: 0; }
 
 
