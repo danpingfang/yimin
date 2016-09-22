@@ -22,7 +22,7 @@ head
 .notice{font-size: 12px;background-color: #F8FCFF;width: 100%;position: relative;display:flex;display:-webkit-flex;;}
 .notice-info{flex:1;-webkit-flex: 1;margin-top:9px;margin-left:12px;margin-bottom: 9px;color:#7C8389;}
 .btn-close{margin-right: 15px;margin-top: 20px;margin-bottom: 20px;padding-right:0;}
-.btn-circle{width: 12px;height:12px;line-height:11px;border: 1px solid  #B7C0C8;text-align: center;border-radius:50%;background-color: #B7C0C8;margin-left:15px;}
+.btn-circle{width: 12px;height:12px;line-height:11px;text-align: center;border-radius:50%;background-color: #B7C0C8;margin-left:15px;}
 .btn-close a{color:#ffffff;}
 
 /*预约项目*/
@@ -37,10 +37,8 @@ head
 .form-box{background-color: #FFFFFF;padding-top:16px;margin-top: 0;font-size: 13px;bottom:0;}
 .form-box>.form-hd{margin-left: 16px;margin-bottom: 16px;}
 .form-text>p{line-height: 42px;border-bottom:1px solid #F5F5F5;padding-left:16px;}
-.fieldset #username{margin-left: 50px;width:150px;height:16px;border:0;}
-.fieldset #male-select{margin-left: 90px;-webkit-appearance: none;}
-.fieldset #female-select{margin-left: 90px;-webkit-appearance: none;}
-.fieldset #ph-number{margin-left: 60px;width:150px;height:16px;border: 0;}
+.fieldset #username{margin-left: 50px;width:150px;height:20px;border:0;}
+.fieldset #ph-number{margin-left: 60px;width:150px;height:20px;border: 0;}
 
 /*提交按钮*/
 .footer{height:49px;background-color: #57646E;bottom: 0;left:0; right:0;position: fixed;text-align: center;}
