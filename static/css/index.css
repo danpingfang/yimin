@@ -46,6 +46,7 @@ nav{margin-top: 0;background-color:#FFFFFF;}
 }
 
 .head-menu2{overflow-x:scroll; }
+::-webkit-scrollbar{width:0;height:0;}
 .head-menu2>.hd-dropdown{margin: 0 30px 0 0;padding:0;display: inline-block;line-height: 39px;}
 .head-menu2>.hd-dropdown>a {display: block;height:36px;}
 .head-menu .region>a{display: block;height:39px;line-height: 39px;}
@@ -53,7 +54,6 @@ nav{margin-top: 0;background-color:#FFFFFF;}
 .head-menu2>.hd-dropdown>a{text-align: center;}
 .head-menu .region .show-menu{text-align: center;display:block;position: absolute;top:39px ;background-color: #FFFFFF;width:68px; }
 .show-menu{overflow-y: scroll;overflow-x: hidden;text-overflow: ellipsis;}
-/*.show-menu::-webkit-scrollbar{width:0;}*/
 .show-menu li{position: relative;font-size:12px;text-align: center;}
 .show-menu li img{padding-top:15px;padding-bottom:6px;height:19px;width:28px; }
 .show-menu li p{padding-bottom:7px;height:11px;white-space: nowrap; }
