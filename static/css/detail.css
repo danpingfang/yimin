@@ -30,7 +30,6 @@ nav{
   border-bottom: 1px solid #C3C3C3;
   background-color: #FFFFFF;
   font-weight:500;
-  overflow-x: scroll;
 }
 .navigation>.menu{display:flex;display:-webkit-flex;}
 .menu-nav>a{border-bottom: 1px solid #fff;height: 50px;display: inline-block;line-height: 50px;}

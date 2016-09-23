@@ -43,8 +43,20 @@
     <p><i class="icon icon-item-head"></i>联系人</p>
   </div>
   <form class="form-text">
-    <p class="fieldset">联系人姓名<input id="username" type="text" name="name" placeholder="2-15个字" class="required"><br></p>
-    <p class="fieldset">手机号码<input id="ph-number" type="text" name="number" placeholder="11位手机号码" class="required"></p>
+    <!--<p class="fieldset">联系人姓名<input id="username" type="text" name="name" placeholder="2-15个字" class="required"><br></p>
+    <p class="fieldset">手机号码<input id="ph-number" type="text" name="number" placeholder="11位手机号码" class="required"></p>-->
+    <div class="quiz-content">
+      <div class="form-field">
+        <input class="form-input" type="text" value="" placeholder="姓名(必填)">
+      </div>
+      <div class="form-field">
+        <input class="form-input" type="tel" placeholder="手机号(必填)" minlength="11" maxlength="11">
+        <button type="button" class="button-action-vertifycode button-disable">发送验证码</button>
+      </div>
+      <div class="form-field">
+        <input class="form-input" type="tel" value="" placeholder="请输入手机验证码(必填)" minlength="4" maxlength="4">
+      </div>
+    </div>
   </form>
 </div>
 <div class="footer">
@@ -57,7 +69,7 @@
     $(".btn-form").click(function () {
       var name = $('#username').val();
       var phone = $('#ph-number').val();
-      if (name == "" || name.length < 4 || name.length > 30) {
+      if (name == "" || name.length < 2 || name.length > 15) {
         alert("请输入2至15个字");
         $("#username").focus();
         return false;
