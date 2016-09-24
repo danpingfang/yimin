@@ -58,6 +58,7 @@ nav{
 .content2{background-color: #FFFFFF;margin-top: 16px;padding:2px 0 16px 12px;color:#3A3A3A;margin-bottom: 16px;}
 .content2>.term{border-bottom:1px solid #F5F5F5;}
 .content2>.term>p{padding-bottom: 12px;padding-top: 12px;}
+.icon1{margin-right: 10px;}
 .content2>.term>p>em{color:#fff;}
 .content2 .price-box{padding-top:12px;font-size: 17px;}
 .content2 .price-box em{font-style: normal;color: #f48b25;}
