@@ -59,9 +59,10 @@ nav{
 .content2>.term{border-bottom:1px solid #F5F5F5;}
 .content2>.term>p{padding-bottom: 12px;padding-top: 12px;}
 .icon1{margin-right: 10px;}
+.icon2{color:#CD9200;}
 .content2>.term>p>em{color:#fff;}
 .content2 .price-box{padding-top:12px;font-size: 17px;}
-.content2 .price-box em{font-style: normal;color: #f48b25;}
+.content2 .price-box em{font-style: normal;color: #CD9200;}
 
 /*申请条件*/
 .condition{padding-bottom: 16px;line-height: 24px;}
