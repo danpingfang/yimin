@@ -34,7 +34,7 @@ nav{margin-top: 0;background-color:#FFFFFF;}
     }
 .region .hd-item{margin-left: 0;}
 .region .first-hd-item{margin-left:12px;}
-.region .arrow{position: absolute;top:40%;;margin-left: 12px;width:0;height:0;line-height:0;font-size:0;*display:block;*zoom:1;vertical-align:middle;
+.region .arrow{position: absolute;top:40%;;margin-left: 12px;width:0;height:0;line-height:0;font-size:0;*display:block;*zoom:1;white-space:nowrap;overflow: hidden;
     border-top:0 none;
     border-bottom:6px solid #B7C0C8;
     border-left:4px solid transparent;

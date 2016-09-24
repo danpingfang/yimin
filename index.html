@@ -19,10 +19,10 @@
     <nav class="navigation">
         <div class="head-menu ">
             <div class="region">
-                <a href="#"  class="hd-item first-hd-item">地区<i class="arrow"></i></a>
+                <a href="javascript:void(0)"  class="hd-item first-hd-item">地区<i class="arrow"></i></a>
                 <div class="show-menu">
                     <ul>
-                        <li><a href="#"><img src="" alt="flag"/><p>英国</p></a></li>
+                        <li><a href="javascript:void(0)"><img src="" alt="flag"/><p>英国</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>加拿大</p></a></li>
                         <li ><a href="#"><img src="" alt="flag"/><p>圣基茨</p></a></li>
                         <li><a href="#"><img src="" alt="flag"/><p>澳大利亚加拿大</p></a></li>
@@ -161,6 +161,11 @@
     var h=$(window).height()-83+"px"
    $('.show-menu').css('height',h)
   });
+
+  /*点击下拉列表去掉箭头*/
+  $(function(){
+    $(".show-menu>ul>li").remove(".arrow");
+  })
 
 </script>
 </body>
