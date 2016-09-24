@@ -21,29 +21,26 @@
         </div>
     </div>
     <nav class="navigation">
-        <div class="menu">
-          <div class="menu-nav ">
-              <a href="#page1" class="active" sid="page1">项目</a>
-          </div>
-          <div class="menu-nav">
-              <a href="#page2" sid="page2">费用</a>
-          </div>
-          <div class="menu-nav">
-              <a href="#page3" sid="page3">流程</a>
-          </div>
-          <div class="menu-nav">
-              <a href="#page4" sid="page4">材料</a>
-          </div>
-          <div class="menu-nav">
-            <a href="#page5" sid="page5">投资</a>
-          </div>
+      <div class="menu">
+        <div class="menu-nav">
+          <a href="#project" class="active">项目概要</a>
         </div>
+        <div class="menu-nav">
+          <a href="#fee">费用说明</a>
+        </div>
+        <div class="menu-nav">
+          <a href="#process">流程&材料</a>
+        </div>
+        <div class="menu-nav">
+          <a href="#invest">投资项目</a>
+        </div>
+      </div>
     </nav>
 </header>
 
 <div class="whole-page">
     <!--  项目介绍  -->
-    <div class="floors floor-row" id="page1">
+    <div class="floors floor-row" id="project">
             <div class="hd">
                 <h2 class="title">项目介绍</h2>
             </div>
@@ -92,7 +89,7 @@
         </div>
     </div>
     <!--  费用说明  -->
-    <div class="floors floor-row" id="page2">
+    <div class="floors floor-row" id="fee">
             <div class="hd">
                 <h2 class="title">费用说明</h2>
             </div>
@@ -134,7 +131,7 @@
         </div>
     </div>
     <!--  办理流程  -->
-    <div class="floors floor-table" id="page3">
+    <div class="floors floor-table" id="process">
             <div class="hd">
                 <h2 class="title">办理流程</h2>
             </div>
@@ -162,7 +159,7 @@
         </div>
     </div>
     <!--  材料清单  -->
-    <div class="floors floor-table" id="page4">
+    <div class="floors floor-table" >
             <div class="hd">
                 <h2 class="title">材料清单</h2>
             </div>
@@ -190,7 +187,7 @@
         </div>
     </div>
     <!--  投资项目  -->
-    <div class="floors floor-row2" id="page5">
+    <div class="floors floor-row2" id="invest">
       <div class="hd">
         <h2 class="title">投资项目</h2>
       </div>
@@ -217,9 +214,9 @@
         <list :items="items"></list>
       </ul>
     </div>
-  <!--  相关咨询 -->
+  <!--  相关资讯 -->
   <div class="floor-row3">
-    <h2>相关咨询</h2>
+    <h2>相关资讯</h2>
     <ul class="news-list">
       <li class="news-item  news-item--reverse news-item--image">
         <a class="news-container" href="">
