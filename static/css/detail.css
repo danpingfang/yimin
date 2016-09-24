@@ -74,6 +74,7 @@ nav{
 /*费用说明*/
 .floor-row .cost{padding-bottom: 16px;}
 .floor-row .cost>p{line-height: 24px;}
+.floor-row .cost pre{line-height: 24px;}
 .cost .small-text{background-color: #F8FCFF;padding:9px 8px 8px 10px;margin-top:6px;}
 .cost .small-text>small{color:#7C8389;font-size:13px;line-height:20px; }
 
