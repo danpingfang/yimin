@@ -7,7 +7,6 @@
  *
  * Copyright 2012 jQuery Foundation and other contributors
  * Released under the MIT license
- * http://jquery.org/license
  *
  * Date: Tue Nov 13 2012 08:20:33 GMT-0500 (Eastern Standard Time)
  */
